@@ -13,11 +13,15 @@ yarn gulp
 ```html
 <html>
   <head>
+    <!--
     <link
       href="https://raw.githubusercontent.com/xpert-brasil/xpertweb-pdf/main/css/xpertweb.min.css"
       rel="stylesheet"
     />
+    -->
     <style>
+      {{ css }}
+
       body {
         font-size: 14px;
       }
